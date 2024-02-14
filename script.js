@@ -1,15 +1,16 @@
 // complete the given function
 function palindrome(str){
   var ct=0;
-	str.toUpperCase();
-	for(var i=0;i<str.length;i++){
+	var s1=str.toUpperCase();
+	console.log(s1);
+	for(var i=0;i<s1.length;i++){
 		
-       if(str[i]===str[str.length-i-1]){
+       if(s1[i]===s1[s1.length-i-1]){
 		    ct++;
 		     }}
 	
     
-  if(ct==str.length){
+  if(ct==s1.length){
 		return true;
 	}else{
 		return false;
